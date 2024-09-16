@@ -2,6 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from 'react-type-animation';
+import Link from "next/link";
 
 const HeroSection = () => {
     return (
@@ -33,12 +34,16 @@ const HeroSection = () => {
                         An aspiring software developer willing to learn new experience.
                     </p>
                     <div>
-                        <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-green-500 to-teal-500 hover:bg-slate-200 text-white">
+                        <Link 
+                        href="/#contact"
+                        className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-green-500 to-teal-500 hover:bg-slate-200 text-white">
                             Hire Me
-                        </button>
-                        <button className="px-1 py-1 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-green-500 to-teal-500 hover:bg-slate-800 text-white border mt-3">
+                        </Link>
+                        <Link
+                        href="https://mustafa19301.github.io/"
+                        className="px-1 inline-block py-1 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-green-500 to-teal-500 hover:bg-slate-800 text-white border mt-3">
                             <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">Other Website</span>
-                        </button>
+                        </Link>
                     </div>
                 </div>
                 <div className="col-span-4 place-self-center mt-4 lg:mt-0">
