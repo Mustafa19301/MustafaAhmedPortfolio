@@ -14,7 +14,7 @@ const projectsData = [
       id: 2,
       title: "RPG Adventure JAVA Game",
       description: "Programmed an RPG game using JAVA that plays a knight programmed to defeat mobs and earn rewards",
-      image: "/images/projects/2.png",
+      image: "/images/projects/5.png",
       tag: ["All", "Web"],
       gitUrl: "https://github.com/Mustafa19301",
     },
