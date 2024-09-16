@@ -63,8 +63,7 @@ const AboutSection = () => {
                     <p className="text-base md:text-lg">
                         As a passionate and strong computer science student, I thrive to solve complex problems that stand in my path to drive innovation.
                         The most important top skills I posses are Leadership, Executive Coaching, Communication, Interpersonal Skills & Analytical Skills.
-                        I do also specialize using GitHub for coding projects as it enhances my skill sets to create more amazing applications. I am a team leader that inspires
-                        other collaborators to achieve their goals and become a successful developers.
+                        I do also specialize using GitHub for coding projects as it enhances my skill sets to create more amazing applications.
                     </p>
                     <div className="flex flex-row justify-start mt-8">
                         <TabButton
