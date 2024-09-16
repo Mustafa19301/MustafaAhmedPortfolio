@@ -15,15 +15,15 @@ const EmailSection = () => {
                 </p>
                 <div className="socials flex flex-row gap-2">
                     <Link href="https://github.com/Mustafa19301">
-                        <Image src="/images/GITHUB2.png" width={50} height={50} />
+                        <Image src="/images/GITHUB2.png" width={50} height={50} alt="githubimageicon"/>
                     </Link>
                     <Link href="https://www.linkedin.com/in/mustafa-a-252700297/">
-                        <Image src="/images/LINKEDIN.png" width={50} height={50} />
+                        <Image src="/images/LINKEDIN.png" width={50} height={50} alt="linkedinimageicon"/>
                     </Link>
                 </div>
             </div>
             <div className="flex flex-col gap-4">
-                <Image src="/images/Program2.png" width={700} height={700} />
+                <Image src="/images/Program2.png" width={700} height={700} alt="programpicture"/>
                 </div>
         </section>
     );
