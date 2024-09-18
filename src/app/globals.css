@@ -25,3 +25,29 @@ body {
     text-wrap: balance;
   }
 }
+
+/* Black animated background */
+
+@keyframes blackGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animated-black-bg {
+  background: linear-gradient(270deg, #000000, #0e340a, #043343, #000000);
+  background-size: 400% 400%;
+  animation: blackGradient 20s ease infinite;
+  min-height: 100vh; /* Cover the whole screen */
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1; /* Make sure it's behind content */
+}
