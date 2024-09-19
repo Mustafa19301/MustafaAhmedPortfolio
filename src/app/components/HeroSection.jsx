@@ -47,7 +47,7 @@ const HeroSection = () => {
                     </div>
                 </div>
                 <div className="col-span-4 place-self-center mt-4 lg:mt-0">
-                    <div className="rounded-full bg-[#181818] w-[200px] h-[200px] lg:w-[400px] lg:h-[400px] relative">
+                    <div className="rounded-full bg-[#181818] w-[200px] h-[200px] lg:w-[400px] lg:h-[400px] relative glow-animation">
                         <Image
                             src="/images/ProfileMustafa.png"
                             alt="Robot Image"
