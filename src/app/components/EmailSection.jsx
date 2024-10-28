@@ -22,52 +22,56 @@ const EmailSection = () => {
                     </Link>
                 </div>
             </div>
-            <form className="flex flex-col">
-                <div className="mb-6">
-                    <label htmlFor="email" className="text-white block mb-2 text-sm font-medium">
-                        Your email
-                    </label>
-                    <input
-                        type="email"
-                        id="email"
-                        required
-                        className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                        placeholder="example@gmail.com"
-                    />
-                </div>
-                <div className="mb-6">
-                    <label htmlFor="subject" className="text-white block mb-2 text-sm font-medium">
-                        Subject
-                    </label>
-                    <input
-                        type="text"
-                        id="subject"
-                        required
-                        className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                        placeholder="Just saying hi"
-                    />
-                </div>
-                <div className="mb-6">
-                    <label
-                        htmlFor="message"
-                        className="text-white block text-sm mb-2 font-medium"
-                    >
-                        Message
-                    </label>
-                    <textarea
-                        name="message"
-                        id="message"
-                        className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                        placeholder="Let's talk about..."
-                    />
-                </div>
-                <button
-                    type="submit"
-                    className="bg-blue-500 hover:bg-blue-600 text-white font-medium py-2.5 px-5 rounded-lg w-full"
+            <div className="flex flex-col">
+                <form action="https://formsubmit.co/mustafaahmed05417@gmail.com" method="POST">
+                    <div className="mb-6">
+                        <label htmlFor="email" className="text-white block mb-2 text-sm font-medium">
+                            Your email
+                        </label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"  // Make sure to add the name attribute
+                            required
+                            className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
+                            placeholder="example@gmail.com"
+                        />
+                    </div>
+                    <div className="mb-6">
+                        <label htmlFor="subject" className="text-white block mb-2 text-sm font-medium">
+                            Subject
+                        </label>
+                        <input
+                            type="text"
+                            id="subject"
+                            name="subject"  // Make sure to add the name attribute
+                            required
+                            className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
+                            placeholder="Just saying hi"
+                        />
+                    </div>
+                    <div className="mb-6">
+                        <label
+                            htmlFor="message"
+                            className="text-white block text-sm mb-2 font-medium"
+                        >
+                            Message
+                        </label>
+                        <textarea
+                            name="message"
+                            id="message"
+                            className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
+                            placeholder="Let's talk about..."
+                        />
+                    </div>
+                    <button
+                        type="submit"
+                        className="bg-blue-500 hover:bg-blue-600 text-white font-medium py-2.5 px-5 rounded-lg w-full"
                     >
                         Send Message
                     </button>
-            </form>
+                </form>
+            </div>
         </section>
     );
 };
