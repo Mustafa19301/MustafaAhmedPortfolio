@@ -3,36 +3,6 @@ import Link from "next/link";
 import Image from "next/image";
 
 const EmailSection = () => {
-    const [formData, setFormData] = useState({
-        email: '',
-        subject: '',
-        message: ''
-    });
-
-    const handleInputChange = (e) => {
-        setFormData({ ...formData, [e.target.id]: e.target.value });
-    };
-
-    const handleSubmit = async (e) => {
-        e.preventDefault();
-        try {
-            const response = await fetch('/api/send-email', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify(formData),
-            });
-
-            if (response.ok) {
-                console.log('Message sent!');
-            } else {
-                console.error('Failed to send message');
-            }
-        } catch (error) {
-            console.error('An error occurred:', error);
-        }
-    };
     return (
         <section className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative">
             <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
