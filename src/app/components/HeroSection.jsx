@@ -18,8 +18,6 @@ const HeroSection = () => {
                             sequence={[
                                 'Mustafa Ahmed',
                                 1000,
-                                'Software Developer',
-                                1000,
                                 'Web Developer',
                                 1000,
                                 'CompSci Student',
