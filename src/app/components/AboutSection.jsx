@@ -62,7 +62,7 @@ const AboutSection = () => {
                     <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
                     <p className="text-base md:text-lg">
                         As a passionate and strong computer science student, I thrive to solve complex problems that stand in my path to drive innovation.
-                        The most important top skills I posses are Leadership, Executive Coaching, Communication, Interpersonal Skills & Analytical Skills.
+                        The most important top skills I posses are Leadership, Coaching, Communication, Interpersonal Skills & Analytical Skills.
                         I do also specialize using GitHub for coding projects as it enhances my skill sets to create more amazing applications.
                     </p>
                     <div className="flex flex-row justify-start mt-8">
