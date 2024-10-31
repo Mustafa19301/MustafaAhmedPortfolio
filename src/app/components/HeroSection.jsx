@@ -31,7 +31,7 @@ const HeroSection = () => {
                         />
                     </h1>
                     <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-                        An aspiring software developer willing to learn new experience.
+                        An aspiring Computer Science professional harnessing the power of continous learning.
                     </p>
                     <div>
                         <Link 
