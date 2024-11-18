@@ -31,7 +31,7 @@ const HeroSection = () => {
                         />
                     </h1>
                     <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-                        An aspiring Computer Science professional harnessing the power of continous learning.
+                        An aspiring Computer Science professional harnessing the power of continuous learning.
                     </p>
                     <div>
                         <Link 
