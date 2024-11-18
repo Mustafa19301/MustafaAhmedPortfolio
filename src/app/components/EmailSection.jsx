@@ -10,8 +10,8 @@ const EmailSection = () => {
                 <h5 className="text-xl font bold text-white my-2">Let&apos;s connect</h5>
                 <p className="text-[#ADB7BE] mb-4 max-w-md">
                     {" "}
-                    I&apos;m currently looking for new opportunities, my inbox is open so feel free to connect.
-                    I&apos;ll do my best to get back to you as soon as possible! Contact email: mustafaahmed3848@gmail.com
+                    I am an aspriring professional looking for new learning opportunities. 
+                    Kindly contact me at mustafaahmed3848@gmail.com
                 </p>
                 <div className="socials flex flex-row gap-2">
                     <Link href="https://github.com/Mustafa19301">
