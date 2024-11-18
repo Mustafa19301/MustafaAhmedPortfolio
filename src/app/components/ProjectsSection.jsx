@@ -29,15 +29,15 @@ const projectsData = [
   {
     id: 4,
     title: "Website Designed Application",
-    description: "Designed a Website for a Medical field introducing Podiatry",
+    description: "Designed professional medical website for a leading company primarily focused on podiatry medicine.",
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/Mustafa19301",
+    gitUrl: "https://www.ahmedfootsurgery.com/",
   },
   {
     id: 5,
     title: "Tic-Tac-Toe Python Game",
-    description: "Programmed a Tic-Tac-Toe using Python that utilizes Definitons",
+    description: "Programmed a Tic-Tac-Toe game using Python that utilizes Definitons",
     image: "/images/projects/4.png",
     tag: ["All", "Mobile"],
     gitUrl: "https://github.com/Mustafa19301",
