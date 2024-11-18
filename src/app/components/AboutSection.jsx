@@ -11,6 +11,7 @@ const TAB_DATA = [
             <ul className="list-disc pl-2">
                 <li>JAVA</li>
                 <li>C</li>
+                <li>C++</li>
                 <li>Python</li>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -18,6 +19,7 @@ const TAB_DATA = [
                 <li>JavaScriptJSX</li>
                 <li>Node.js</li>
                 <li>React</li>
+                <li>SQL</li>
             </ul>
         )
     },
@@ -26,7 +28,7 @@ const TAB_DATA = [
         id: "education",
         content: (
             <ul className="list-disc pl-2">
-                <li>University of Windsor, Canada Ontario</li>
+                <li>University of Windsor Bachelor of Computer Science Honours, Canada Ontario</li>
                 <li>Saint Francis Xavier Catholic Secondary School, Canada Ontario</li>
             </ul>
         )
@@ -61,9 +63,8 @@ const AboutSection = () => {
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                     <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
                     <p className="text-base md:text-lg">
-                        As a passionate and strong computer science student, I thrive to solve complex problems that stand in my path to drive innovation.
-                        The most important top skills I posses are Leadership, Coaching, Communication, Interpersonal Skills & Analytical Skills.
-                        I do also specialize using GitHub for coding projects as it enhances my skill sets to create more amazing applications.
+                        As passionate computer science student, I lead complex problem resolution and drive efficiencies using expert knowledge and skills. 
+                        I specialize in coding projects for web applications using GitHub with a repository of codes for development and have also designed multiple websites for professionals.
                     </p>
                     <div className="flex flex-row justify-start mt-8">
                         <TabButton
