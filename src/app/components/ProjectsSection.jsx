@@ -12,8 +12,8 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Full-Stack Portfolio Web Application",
-    description: "Developed, Designed and Deployed a full stack portfolio web application with React",
+    title: "Next.js Portfolio Web Application",
+    description: "Developed, designed, and deployed a Next.js portfolio web application with robust React framework showcasing a GitHub repository of technical projects and codes",
     image: "/images/projects/6.PNG",
     tag: ["All", "Mobile"],
     gitUrl: "https://github.com/Mustafa19301/MustafaAhmedPortfolio",
