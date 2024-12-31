@@ -6,7 +6,7 @@ const projectsData = [
     id: 1,
     title: "Live Face and Object Detection",
     description: "Developed a Live Face and Object Detection using Python that integrates OpenCV and YOLO5 models",
-    image: "/images/projects/FaceDetection.PNG",
+    image: "/images/projects/FaceDetector.PNG",
     tag: ["All", "Mobile"],
     gitUrl: "https://github.com/Mustafa19301/Live-Face-and-Object-Detection",
   },
