@@ -13,7 +13,7 @@ const projectsData = [
   {
     id: 2,
     title: "SR Dashboard Heatmap",
-    description: "Group project that we developed using React and Object-Oriented Programming Python using data from City of Windsor (All-service request)",
+    description: "Group project that we developed using Node.js, React and Object-Oriented Programming Python using data from City of Windsor (All-service request)",
     image: "/images/projects/dashboardheatmap.PNG",
     tag: ["All", "Mobile"],
     gitUrl: "https://github.com/Fakkiie/COMP3220-Team2",
