@@ -16,7 +16,7 @@ const projectsData = [
     description: "Group project that we developed using Node.js, React and Object-Oriented Programming Python using data from City of Windsor (All-service request)",
     image: "/images/projects/dashboardheatmap.PNG",
     tag: ["All", "Mobile"],
-    gitUrl: "https://github.com/Fakkiie/COMP3220-Team2",
+    gitUrl: "https://github.com/Mustafa19301/COMP3220-City-of-Windsor-Service-Request",
   },
   {
     id: 3,
