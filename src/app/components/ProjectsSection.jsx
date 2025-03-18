@@ -4,11 +4,11 @@ import ProjectCard from "./ProjectCard";
 const projectsData = [
   {
     id: 1,
-    title: "Live Face and Object Detection",
-    description: "Developed a Live Face and Object Detection using Python that integrates OpenCV and YOLO5 models",
-    image: "/images/projects/FaceDetector.PNG",
+    title: "Tuberculosis Data Analysis & Prediction",
+    description: "Analyzed a dataset of 400,000 records from 70 countries, predicting TB Incidence Rates using machine learning models",
+    image: "/images/projects/tuberdataset.PNG",
     tag: ["All", "Mobile"],
-    gitUrl: "https://github.com/Mustafa19301/Live-Face-and-Object-Detection",
+    gitUrl: "https://github.com/Mustafa19301/Tuberculosis-Data-Analysis-Prediction",
   },
   {
     id: 2,
