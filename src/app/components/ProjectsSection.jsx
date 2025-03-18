@@ -6,7 +6,7 @@ const projectsData = [
     id: 1,
     title: "Tuberculosis Data Analysis & Prediction",
     description: "Analyzed a dataset of 400,000 records from 70 countries, predicting TB Incidence Rates using machine learning models",
-    image: "/images/projects/tuberdataset.PNG",
+    image: "/images/projects/tuberdataset.png",
     tag: ["All", "Mobile"],
     gitUrl: "https://github.com/Mustafa19301/Tuberculosis-Data-Analysis-Prediction",
   },
