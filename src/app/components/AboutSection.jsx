@@ -41,6 +41,7 @@ const TAB_DATA = [
                 <li>Introduction to Cybersecurity, CISCO Networking Academy</li>
                 <li>Introduction to Packet Tracer, CISCO Networking Academy</li>
                 <li>Learning Git Bash Script, Linkedin Learning</li>
+                <li>AWS Cloud Practitioner Essentials</li>
             </ul>
         )
     }
